@@ -23,7 +23,9 @@ This Yeoman generator provides some shortcuts to work with Backbone project base
 
 # Build
 
-    $ Build project with:   `make`
+Build project with:   `
+
+    $ make
 
 
 # License
