@@ -1,0 +1,17 @@
+{
+  "name": "package",
+  "version": "0.0.1",
+  "devDependencies": {
+    "canned": "~0.2.2",
+    "jquery-untouched": "~1.10.2",
+    "underscore": "~1.6.0",
+    "backbone": "~1.1.2",
+    "handlebars": "~1.3.0",
+    "hbsfy": "~1.3.2"
+  },
+  "dependencies": {
+    "express": "~4.1.0",
+    "proxy-middleware": "~0.5.0",
+    "morgan": "~1.0.0"
+  }
+}
