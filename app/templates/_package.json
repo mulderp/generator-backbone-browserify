@@ -1,6 +1,6 @@
 {
   "name": "package",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "devDependencies": {
     "canned": "~0.2.2",
     "jquery-untouched": "~1.10.2",

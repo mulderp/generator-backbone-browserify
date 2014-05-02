@@ -1,6 +1,6 @@
 {
   "name": "generator-backbone-browserify",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Yeoman generator for a Backbone and Handlebars project",
   "license": "MIT",
   "main": "app/index.js",
@@ -20,7 +20,10 @@
     "test": "mocha"
   },
   "files": [
-    "app"
+    "app",
+    "collection",
+    "model",
+    "view"
   ],
   "keywords": [
     "yeoman-generator", "backbone", "browserify", "handlebars"
