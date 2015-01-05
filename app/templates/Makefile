@@ -2,7 +2,7 @@
 export PATH := node_modules/.bin:$(PATH)
 
 all:
-	browserify -t hbsfy  ./app/main.js > static/bundle.js
+	browserify ./app/main.js > static/bundle.js
 
 publish:
-	browserify -t hbsfy  ./app/main.js | uglifyjs > build/bundle.js
+	browserify ./app/main.js | uglifyjs > build/bundle.js
