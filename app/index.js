@@ -54,6 +54,7 @@ var BackboneBrowserifyGenerator = yeoman.generators.Base.extend({
     this.copy('_server.js', 'server.js');
     this.copy('_main.js', 'app/main.js');
     this.copy('_index.html', 'static/index.html');
+    this.copy('_style.css', 'static/style.css');
   },
 
   projectfiles: function () {
