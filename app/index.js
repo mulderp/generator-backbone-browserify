@@ -61,6 +61,8 @@ var BackboneBrowserifyGenerator = yeoman.generators.Base.extend({
     this.copy('jshintrc', '.jshintrc');
     this.copy('gitignore', '.gitignore');
     this.copy('Makefile', 'Makefile');
+    this.copy('symlink.sh', 'symlink.sh');
+    this.copy('links.js', 'links.js');
   }
 });
 

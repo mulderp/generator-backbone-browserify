@@ -1,5 +1,5 @@
 {
-  "name": "package",
+  "name": "sandbox-project",
   "version": "0.0.0",
   "devDependencies": {
     "canned": "~0.2.2",
